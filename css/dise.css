@@ -1,0 +1,324 @@
+header{
+  background: #0A2342;
+  color: black;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+nav ul{
+  background-color: #197278 ;
+  list-style-type: none ;
+  width: 95%;
+  text-align: center;
+}
+
+
+nav li{
+  display: inline-flex;
+}
+
+
+nav a{
+  color: #f5f3f5;
+  text-decoration: none;
+  padding: 10px;
+  width: 100px;
+}
+
+header h1{
+font font-family:"Dancing Script", cursive;
+color:white;
+
+}
+
+header nav{
+font font-family:"Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+  font font-family:"Dancing Script", cursive;
+  background: #9BC4CB;
+}
+
+nav a:hover{
+
+ color: black;
+}
+
+
+
+main{
+  font-family: "Shadows Into Light",cursive;
+  max-width:1000px ;
+  margin:20px auto;
+  padding:0 20px;
+}
+
+
+.Lista-Productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacio entre los productos */
+}
+
+.Productos {
+    flex: 0 0 30%; /* Ancho deseado para cada producto */
+    margin-bottom: 20px; /* Espacio entre los productos */
+}
+
+/*Para hacer referencia a las clases debemos asignar un punto(.)
+al inicio del nombre de la clase*/
+.Productos{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+
+.Productos:Hover{
+  box-shadow: 0 0 30px rgba(100, 0, 0, 0.8);
+}
+
+.Productos img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+
+.Productos:hover img{
+  transform: scale(1.1);
+
+}
+
+.Productos button{
+  display: block;
+  margin: 0 auto;
+  background-color: #7C642D;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: backround-color 0.3s ease-in-out;
+}
+
+.Productos button:hover{
+  background-color: orange;
+}
+
+.links-informativos{
+  width 200px
+  font-family: ;
+}
+
+.links-informativos{
+list-style:none;
+margi:0;
+padding:0;
+}
+
+.links-informativos ul{
+text-decoration: none;
+color: black;
+}
+
+footer{
+  background-color: #066D80;
+color: Black;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+flex-wrap: wrap;
+
+}
+
+
+.info-contacto{
+  width: 200px;
+  text align: right;
+  font-size: 16px;
+}
+
+
+.Redes-Sociales ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Redes-Sociales ul li {
+    margin-right: 10px; /* Espacio entre las imágenes */
+}header{
+  background: #0A2342;
+  color: black;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+
+
+nav ul{
+  background-color: #197278 ;
+  list-style-type: none ;
+  width: 95%;
+  text-align: center;
+}
+
+
+nav li{
+  display: inline-flex;
+}
+
+
+nav a{
+  color: #f5f3f5;
+  text-decoration: none;
+  padding: 10px;
+  width: 100px;
+}
+
+header h1{
+font font-family:"Dancing Script", cursive;
+color:white;
+
+}
+
+header nav{
+font font-family:"Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+  font font-family:"Dancing Script", cursive;
+  background: #9BC4CB;
+}
+
+nav a:hover{
+
+ color: black;
+}
+
+
+
+main{
+  font-family: "Shadows Into Light",cursive;
+  max-width:1000px ;
+  margin:20px auto;
+  padding:0 20px;
+}
+
+
+.Lista-Productos {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los productos */
+}
+
+.Productos {
+    flex: 0 0 30%; /* Ancho deseado para cada producto */
+    margin-bottom: 20px; /* Espacio entre los productos */
+}
+
+/*Para hacer referencia a las clases debemos asignar un punto(.)
+al inicio del nombre de la clase*/
+.Productos{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+
+.Productos:Hover{
+  box-shadow: 0 0 30px rgba(100, 0, 0, 0.8);
+}
+
+.Productos img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+
+.Productos:hover img{
+  transform: scale(1.1);
+
+}
+
+.Productos button{
+  display: block;
+  margin: 0 auto;
+  background-color: #7C642D;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: backround-color 0.3s ease-in-out;
+}
+
+.Productos button:hover{
+  background-color: orange;
+}
+
+.links-informativos{
+  width 200px
+  font-family: ;
+}
+
+.links-informativos{
+list-style:none;
+margi:0;
+padding:0;
+}
+
+.links-informativos ul{
+text-decoration: none;
+color: black;
+}
+
+footer{
+  background-color: #066D80;
+color: Black;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+flex-wrap: wrap;
+
+}
+
+
+.info-contacto{
+  width: 200px;
+  text align: right;
+  font-size: 16px;
+}
+
+
+.Redes-Sociales ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Redes-Sociales ul li {
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
